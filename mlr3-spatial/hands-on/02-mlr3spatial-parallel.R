@@ -1,6 +1,6 @@
 library(mlr3spatial)
 library(mlr3learners)
-library(future)
+library(future, exclude = "values")
 
 # quiet execution
 lgr::get_logger("bbotk")$set_threshold("warn")
@@ -33,7 +33,7 @@ plan(multisession, workers = 2) # adapt as needed
 # execute!
 pred = predict_spatial(tsk_predict, lrn)
 
-# multicore backend - not available on Windows!
+# multicore backend - not available on Windows! Only works outside of RStudio!
 plan(multicore, workers = 2) # adapt as needed
 # execute!
 pred = predict_spatial(tsk_predict, lrn)

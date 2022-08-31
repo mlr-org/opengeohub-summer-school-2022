@@ -1,4 +1,5 @@
 library(mlr3verse)
+library(ranger)
 
 ### Create Task ---------------------------------------------------------------#
 data("mtcars", package = "datasets")

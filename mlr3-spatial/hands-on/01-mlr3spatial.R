@@ -1,5 +1,6 @@
 library(mlr3)
 library(mlr3spatial)
+library(mlr3learners)
 library(terra, exclude = "resample") # avoid overriding `mlr3::resample()`
 library(sf)
 library(stars)
