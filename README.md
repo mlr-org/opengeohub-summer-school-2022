@@ -18,10 +18,12 @@ This will
 1. Clone the repository
 1. Open an RStudio project
 
+You can now either manually set the working directory to one of the hands-on directories or click on the respective `.Rproj` file.
+
 To install the required R packages for each hands-on:
 
-1. Change into the directory (either `mlr3-basics` or `mlr3-spatial`)
-1. Run `renv::restore()`
+1. (Change into the directory (either `mlr3-basics` or `mlr3-spatial`))
+1. Run `renv::restore()` (or follow the {renv} prompt which appears when you start R in this directory)
 
 ## Slides
 
