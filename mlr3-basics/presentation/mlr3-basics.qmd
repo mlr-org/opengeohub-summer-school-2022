@@ -43,7 +43,7 @@ lgr::get_logger("mlr3")$set_threshold("warn")
 
 ![](assets/img/ich.jpeg){width="30%" fig-align="center"}
 
-{{< fa solid chevron-right >}} M.Sc. Geoinformatics, PhD Geoinformatics
+{{< fa solid chevron-right >}} PhD (candidate) Geoinformatics
 
 {{< fa solid chevron-right >}} Former research fellow at University of **Jena** and LMU **Munich**
 
@@ -52,7 +52,6 @@ lgr::get_logger("mlr3")$set_threshold("warn")
 :::
 
 ::: {.column width="45%"}
-::: {.colored-column}
 - Unix & R enthusiast
 
 - [Gitea](https://gitea.io/en-us/) ([https://gitea.io](https://gitea.io)) contributor
@@ -61,7 +60,6 @@ lgr::get_logger("mlr3")$set_threshold("warn")
   - [mlr3](https://github.com/mlr-org/mlr3) - https://github.com/mlr-org/mlr3
   - [mlr](https://github.com/mlr-org/mlr) -  https://github.com/mlr-org/mlr
 
-:::
 :::
 
 ::::
@@ -89,9 +87,9 @@ lgr::get_logger("mlr3")$set_threshold("warn")
 
 ## Meta information
 
-Resources: FIXME:
+Resources: https://github.com/mlr-org/opengeohub-summer-school-2022
 
-`usethis::use_course()` FIXME:
+`usethis::use_course("mlr-org/opengeohub-summer-school-2022")`
 
 :::: {.columns}
 
