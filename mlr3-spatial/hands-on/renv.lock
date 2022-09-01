@@ -934,16 +934,6 @@
         "ps"
       ]
     },
-    "progressr": {
-      "Package": "progressr",
-      "Version": "0.10.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "f785c20b96fae12a810c66717c0137a6",
-      "Requirements": [
-        "digest"
-      ]
-    },
     "promises": {
       "Package": "promises",
       "Version": "1.2.0.1",
